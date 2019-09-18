@@ -1,0 +1,25 @@
+{
+    "name": "greeny/json",
+    "description": "A JSON parser that doesn't use native json_decode function.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomáš Blatný",
+            "email": "blatny.tomas@seznam.cz"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"greeny\\Json\\": "src/"
+		}
+	},
+    "require": {
+	    "php": ">=7.1",
+	    "ext-mbstring": "*",
+	    "nette/tokenizer": "^3.1.0"
+    },
+	"require-dev": {
+		"nette/tester": "^2.3.0"
+	}
+}
