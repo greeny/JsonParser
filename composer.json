@@ -1,5 +1,5 @@
 {
-    "name": "greeny/json",
+    "name": "greeny/json-parser",
     "description": "A JSON parser that doesn't use native json_decode function.",
     "type": "library",
     "license": "MIT",
